@@ -21,6 +21,8 @@ import  Navbar  from './components/navbar.jsx';
 import "bootstrap-icons/font/bootstrap-icons.css"
 import { createContext } from 'react';
 import Cart from './pages/cart.jsx';
+import { HashRouter as Router } from "react-router-dom";
+
 
 
 export const Data = createContext()
